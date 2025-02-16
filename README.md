@@ -34,11 +34,11 @@ Try out the demo [here](https://ecfr-analyzer-one.vercel.app/)!
 
 ### Architecture
 
-**Frontend**
+*Frontend - *
 A Next.js application using [Shadcn](https://ui.shadcn.com/) components to build out UI + visualizations, and the Next.js Supabase client to query the database. 
 
-**Database**
+*Database - *
 A [Supabase](https://supabase.com/) instance hosting a PostgreSQL database of all eCFR text. Requests are made through RPC function calls to extract the necessary metrics for each query.
 
-**Deployment**
+*Deployment - *
 [Vercel](https://vercel.com/) is used to host the frontend as a web application.
