@@ -2,7 +2,7 @@
 # eCFR Analyzer
 
 **KNOWN ISSUES (discovered after submission)**
-1. Some titles appear to show cumulative word/mandate count year over year for some reason - a script will run in the background to hopefully fix this. For such titles and agencies, to get the true word/mandate count for a specific year, subtract the amount from the previous year.
+1. Some titles appear to show cumulative word/mandate count year over year for some reason - a script will run in the background to hopefully fix this since it seems to be an issue with the database. For such titles and agencies, to get the true word/mandate count for a specific year, subtract the amount from the previous year. Sincere apologies for this.
 2. On rare occasions, a query will fail due to the load being too high on the Supabase instance. Chances increase when querying for more than one agency/title at a time. If you rerun the query, it's likely it will work again.
 
 The goal of this project is to create a simple website to analyze Federal Regulations. The eCFR is available at [here](https://www.ecfr.gov/). There is a public api for it.
