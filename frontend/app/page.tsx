@@ -44,8 +44,8 @@ type ChartState = {
 }
 
 // Constants containing agency and title JSON data
-export const agencies = [...agenciesData.agencies].sort((a, b) => a.name.localeCompare(b.name));
-export const titles = titlesData.titles;
+const agencies = [...agenciesData.agencies].sort((a, b) => a.name.localeCompare(b.name));
+const titles = titlesData.titles;
 
 export default function Home() {
   // Initialize states
