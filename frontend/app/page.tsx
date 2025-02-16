@@ -202,7 +202,7 @@ export default function Home() {
                     )}
                     {sidebarState.selectedMetric === 'mandate_count' && (
                       <>
-                        <p>Mandate count measures the frequency of restrictive words like "shall," "must," "require," and "prohibited." This metric indicates the level of regulatory burden by counting explicit requirements and restrictions.</p>
+                        <p>Mandate count measures the frequency of restrictive words like &ldquo;shall,&rdquo; &ldquo;must,&rdquo; &ldquo;require,&rdquo; and &ldquo;prohibited.&rdquo; This metric indicates the level of regulatory burden by counting explicit requirements and restrictions.</p>
                         <p className="mt-2">A higher mandate count suggests:</p>
                         <ul className="list-disc pl-4 space-y-1">
                           <li>More prescriptive regulations</li>

@@ -47,13 +47,6 @@ export function MultiSelect({
     onChange?.(newValues);
   }
 
-  const handleRemove = (value: string, e: React.MouseEvent) => {
-    e.preventDefault();
-    const newValues = selectedOptions.filter((item) => item !== value);
-    setSelectedOptions(newValues);
-    onChange?.(newValues);
-  }
-
   return (
     <div className="relative w-full">
       <Select value={selectedOptions.join(",")}>

@@ -1,15 +1,15 @@
 import os
 import re
+import requests
+import textstat
+import time
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 from typing import Optional, Dict, List, Any
-import xml.etree.ElementTree as ET
 from io import BytesIO
 from pathlib import Path
 from supabase import create_client, Client
 from dotenv import load_dotenv
-import requests
-import textstat
-import time
 from threading import Lock
 
 
@@ -396,8 +396,8 @@ def generate_annual_dates(start_date: str, end_date: str) -> List[str]:
 
 def main():
     """Main pipeline function that processes titles 1-50 for all years between 2017-02-13 and 2025-02-13."""
-    start_date = "2019-02-13"
-    end_date = "2019-02-13"
+    start_date = "2018-02-13"
+    end_date = "2018-02-13"
     
     print("Starting eCFR data pipeline...")
     print(f"Processing data from {start_date} to {end_date}")
