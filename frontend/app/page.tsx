@@ -71,21 +71,19 @@ export default function Home() {
     setError(null);
     
     try {
-      const mockData = await supabaseHandler(
+      const result = await supabaseHandler(
         sidebarState.queryBy,
         sidebarState.queryBy === 'cfr-title' ? sidebarState.selectedTitles : sidebarState.selectedAgencies,
         sidebarState.selectedMetric
       );
 
-      console.log(mockData);
-
       setChartState({
         queryBy: sidebarState.queryBy,
         metricName: sidebarState.selectedMetric,
-        data: mockData
+        data: result
       });
     } catch (err) {
-      console.error('Error generating mock data:', err);
+      console.error('Error generating data:', err);
       setError('Failed to generate data. Please try again.');
     } finally {
       setIsLoading(false);
@@ -134,7 +132,7 @@ export default function Home() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="agency">Agency</SelectItem>
-                    <SelectItem value="cfr-title">CFR Title</SelectItem>
+                    <SelectItem value="cfr-title">Title</SelectItem>
                   </SelectContent>
                 </Select>
               </SidebarGroupContent>

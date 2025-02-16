@@ -52,9 +52,9 @@ const timeRangeOptions = {
 } as const;
 
 const colors = [
-  "hsl(var(--chart-1))",
-  "hsl(var(--chart-2))",
-  "hsl(var(--chart-3))",
+  "red",
+  "blue",
+  "orange",
 ]
 
 export function Chart({ metricName, queryBy, data }: ChartProps) {
