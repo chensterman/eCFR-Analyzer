@@ -1,0 +1,204 @@
+{
+  "titles": [
+    {
+      "id": "1",
+      "name": "Title 1 - General Provisions"
+    },
+    {
+      "id": "2",
+      "name": "Title 2 - Federal Financial Assistance"
+    },
+    {
+      "id": "3",
+      "name": "Title 3 - The President"
+    },
+    {
+      "id": "4",
+      "name": "Title 4 - Accounts"
+    },
+    {
+      "id": "5",
+      "name": "Title 5 - Administrative Personnel"
+    },
+    {
+      "id": "6",
+      "name": "Title 6 - Domestic Security"
+    },
+    {
+      "id": "7",
+      "name": "Title 7 - Agriculture"
+    },
+    {
+      "id": "8",
+      "name": "Title 8 - Aliens and Nationality"
+    },
+    {
+      "id": "9",
+      "name": "Title 9 - Animals and Animal Products"
+    },
+    {
+      "id": "10",
+      "name": "Title 10 - Energy"
+    },
+    {
+      "id": "11",
+      "name": "Title 11 - Federal Elections"
+    },
+    {
+      "id": "12",
+      "name": "Title 12 - Banks and Banking"
+    },
+    {
+      "id": "13",
+      "name": "Title 13 - Business Credit and Assistance"
+    },
+    {
+      "id": "14",
+      "name": "Title 14 - Aeronautics and Space"
+    },
+    {
+      "id": "15",
+      "name": "Title 15 - Commerce and Foreign Trade"
+    },
+    {
+      "id": "16",
+      "name": "Title 16 - Commercial Practices"
+    },
+    {
+      "id": "17",
+      "name": "Title 17 - Commodity and Securities Exchanges"
+    },
+    {
+      "id": "18",
+      "name": "Title 18 - Conservation of Power and Water Resources"
+    },
+    {
+      "id": "19",
+      "name": "Title 19 - Customs Duties"
+    },
+    {
+      "id": "20",
+      "name": "Title 20 - Employees' Benefits"
+    },
+    {
+      "id": "21",
+      "name": "Title 21 - Food and Drugs"
+    },
+    {
+      "id": "22",
+      "name": "Title 22 - Foreign Relations"
+    },
+    {
+      "id": "23",
+      "name": "Title 23 - Highways"
+    },
+    {
+      "id": "24",
+      "name": "Title 24 - Housing and Urban Development"
+    },
+    {
+      "id": "25",
+      "name": "Title 25 - Indians"
+    },
+    {
+      "id": "26",
+      "name": "Title 26 - Internal Revenue"
+    },
+    {
+      "id": "27",
+      "name": "Title 27 - Alcohol, Tobacco Products and Firearms"
+    },
+    {
+      "id": "28",
+      "name": "Title 28 - Judicial Administration"
+    },
+    {
+      "id": "29",
+      "name": "Title 29 - Labor"
+    },
+    {
+      "id": "30",
+      "name": "Title 30 - Mineral Resources"
+    },
+    {
+      "id": "31",
+      "name": "Title 31 - Money and Finance: Treasury"
+    },
+    {
+      "id": "32",
+      "name": "Title 32 - National Defense"
+    },
+    {
+      "id": "33",
+      "name": "Title 33 - Navigation and Navigable Waters"
+    },
+    {
+      "id": "34",
+      "name": "Title 34 - Education"
+    },
+    {
+      "id": "35",
+      "name": "Title 35 - Reserved"
+    },
+    {
+      "id": "36",
+      "name": "Title 36 - Parks, Forests, and Public Property"
+    },
+    {
+      "id": "37",
+      "name": "Title 37 - Patents, Trademarks, and Copyrights"
+    },
+    {
+      "id": "38",
+      "name": "Title 38 - Pensions, Bonuses, and Veterans' Relief"
+    },
+    {
+      "id": "39",
+      "name": "Title 39 - Postal Service"
+    },
+    {
+      "id": "40",
+      "name": "Title 40 - Protection of Environment"
+    },
+    {
+      "id": "41",
+      "name": "Title 41 - Public Contracts and Property Management"
+    },
+    {
+      "id": "42",
+      "name": "Title 42 - Public Health"
+    },
+    {
+      "id": "43",
+      "name": "Title 43 - Public Lands: Interior"
+    },
+    {
+      "id": "44",
+      "name": "Title 44 - Emergency Management and Assistance"
+    },
+    {
+      "id": "45",
+      "name": "Title 45 - Public Welfare"
+    },
+    {
+      "id": "46",
+      "name": "Title 46 - Shipping"
+    },
+    {
+      "id": "47",
+      "name": "Title 47 - Telecommunication"
+    },
+    {
+      "id": "48",
+      "name": "Title 48 - Federal Acquisition Regulations System"
+    },
+    {
+      "id": "49",
+      "name": "Title 49 - Transportation"
+    },
+    {
+      "id": "50",
+      "name": "Title 50 - Wildlife and Fisheries"
+    }
+  ]
+}

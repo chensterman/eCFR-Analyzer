@@ -11,7 +11,6 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import {
-  ChartConfig,
   ChartContainer,
   ChartLegend,
   ChartLegendContent,
@@ -28,7 +27,7 @@ import {
 
 type DataPoint = {
   date: string;
-  [key: string]: string | number;
+  [key: string]: string | number | null;
 };
 
 type ChartProps = {
@@ -59,14 +58,14 @@ const colors = [
 ]
 
 export function Chart({ metricName, queryBy, data }: ChartProps) {
-  const [timeRange, setTimeRange] = React.useState<keyof typeof timeRangeOptions>("1y")
+  const [timeRange, setTimeRange] = React.useState<keyof typeof timeRangeOptions>("all")
 
   const filterDataByTimeRange = (data: DataPoint[], range: keyof typeof timeRangeOptions) => {
     const cutoffDate = new Date();
     if (range !== 'all') {
       cutoffDate.setFullYear(cutoffDate.getFullYear() - timeRangeOptions[range].years);
     } else {
-      cutoffDate.setFullYear(2017, 0, 1); // Jan 1, 2017
+      cutoffDate.setFullYear(2017, 0, 1);
     }
     return data.filter(item => new Date(item.date) >= cutoffDate);
   };
@@ -86,8 +85,6 @@ export function Chart({ metricName, queryBy, data }: ChartProps) {
   };
 
   const chartConfig = getChartConfig();
-  console.log(chartConfig);
-
   const filteredData = filterDataByTimeRange(data, timeRange);
 
   return (
