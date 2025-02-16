@@ -1,6 +1,10 @@
 
 # eCFR Analyzer
 
+**KNOWN ISSUES (discovered after submission)**
+1. Some titles appear to show cumulative word/mandate count year over year for some reason - a script will run in the background to hopefully fix this.
+2. On rare occasions, a query will fail due to the load being too high on the Supabase instance. Chances increase when querying for more than one agency/title at a time.
+
 The goal of this project is to create a simple website to analyze Federal Regulations. The eCFR is available at [here](https://www.ecfr.gov/). There is a public api for it.
 
 This repo contains code for downloading the current eCFR plus historical changes, along with the processing and backend storage of the data. It also contains code for the frontend visualization and analysis of the data.
